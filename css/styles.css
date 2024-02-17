@@ -24,6 +24,7 @@ ul {
   color: #2e2f42;
   text-decoration: none;
 }
+
 .address .link {
   font-family: inherit;
   font-weight: 400;
@@ -55,13 +56,13 @@ ul {
   color: #2e2f42;
   font-optical-sizing: auto;
 }
-.page-navigation .link:hover {
+.page-navigation .link:hover,
+.page-navigation .link:active {
   color: #404bbf;
 }
-.page-navigation .link .studio:active {
-  color: #404bbf;
-}
-.address .link:hover {
+
+.address .link:hover,
+.address .link:active {
   color: #404bbf;
 }
 .page-title {
@@ -86,6 +87,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointer;
 }
 
 .button:hover {
