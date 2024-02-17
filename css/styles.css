@@ -55,6 +55,15 @@ ul {
   color: #2e2f42;
   font-optical-sizing: auto;
 }
+.page-navigation .link:hover {
+  color: #404bbf;
+}
+.page-navigation .link .studio:active {
+  color: #404bbf;
+}
+.address .link:hover {
+  color: #404bbf;
+}
 .page-title {
   background-color: #2e2f42;
 }
@@ -77,6 +86,10 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+}
+
+.button:hover {
+  background: #404bbf;
 }
 .header-secondary {
   font-weight: 700;
