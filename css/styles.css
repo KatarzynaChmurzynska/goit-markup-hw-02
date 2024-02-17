@@ -32,7 +32,7 @@ ul {
 address {
   font-style: normal;
 }
-.page-navigation .logo {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -43,7 +43,7 @@ address {
   font-optical-sizing: auto;
   text-decoration: none;
 }
-.page-navigation .logo-studio {
+.logo-studio {
   color: #2e2f42;
   font-optical-sizing: auto;
 }
@@ -107,8 +107,6 @@ address {
   background-color: #f4f4fd;
 }
 .photo-box {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
 
@@ -120,7 +118,7 @@ address {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -129,7 +127,7 @@ address {
 .footer-logo-studio {
   color: #f4f4fd;
 }
-.page-footer .link {
+.page-footer .logo {
   text-decoration: none;
 }
 .footer-text {
