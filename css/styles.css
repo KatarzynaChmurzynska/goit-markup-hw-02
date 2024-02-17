@@ -1,10 +1,5 @@
-:root {
-  --font-family: 'Roboto', sans-serif;
-  --second-family: 'Raleway', sans-serif;
-}
-
 body {
-  font-family: var(--font-family);
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -33,11 +28,12 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+}
+address {
   font-style: normal;
 }
-
-.page-navigation .logo-web {
-  font-family: var(--second-family);
+.page-navigation .logo {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
@@ -45,24 +41,21 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
   font-optical-sizing: auto;
+  text-decoration: none;
 }
 .page-navigation .logo-studio {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #2e2f42;
   font-optical-sizing: auto;
 }
 .page-navigation .link:hover,
-.page-navigation .link:active {
+.page-navigation .link:active,
+.page-navigation .link:focus {
   color: #404bbf;
 }
 
 .address .link:hover,
-.address .link:active {
+.address .link:active,
+.address .link:focus {
   color: #404bbf;
 }
 .page-title {
@@ -71,15 +64,12 @@ ul {
 .header-primary {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   color: #fff;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .button {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-family: inherit;
   font-weight: 500;
@@ -90,15 +80,22 @@ ul {
   cursor: pointer;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   background: #404bbf;
 }
 .header-secondary {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   text-transform: capitalize;
   color: #2e2f42;
+  letter-spacing: 0.02em;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.text {
+  font-size: 16px;
 }
 .title {
   font-weight: 500;
@@ -116,7 +113,7 @@ ul {
 }
 
 .page-footer .logo-web {
-  font-family: var(--second-family);
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
@@ -126,14 +123,7 @@ ul {
   font-optical-sizing: auto;
 }
 .footer-logo-studio {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #f4f4fd;
-  font-optical-sizing: auto;
 }
 .page-footer .link {
   text-decoration: none;
